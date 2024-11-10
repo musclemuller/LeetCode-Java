@@ -24,7 +24,7 @@
 
 package Tree;
 
-import java.util.ArrayList;
+import Helper.TreeNode;
 import java.util.*;
 
 class BinaryTreeInorderTraversal {
@@ -159,18 +159,5 @@ class BinaryTreeInorderTraversal {
         System.out.println(res1);
         System.out.println(res2);
         System.out.println(res3);
-    }
-}
-
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode() {}
-    TreeNode(int val) { this.val = val; }
-    TreeNode(int val, TreeNode left, TreeNode right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
     }
 }
