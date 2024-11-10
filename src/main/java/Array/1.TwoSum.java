@@ -48,10 +48,10 @@ class TwoSum {
     }
 
     public static void main(String[] args) {
-        TwoSum t = new TwoSum();
+        TwoSum s = new TwoSum();
         int[] nums = new int[]{2,7,11,15};
         int target = 9;
-        int[] res = t.twoSum(nums, target);
+        int[] res = s.twoSum(nums, target);
         System.out.println(res[0] + " " + res[1]);
     }
 }
