@@ -2,7 +2,7 @@ package Tree;
 
 // Given an integer n, return the number of structurally unique BST's (binary search trees) which has exactly n nodes of unique values from 1 to n.
 // Example 1:
-// Image reference: "../Image/96.png"
+// ![Example Image](../Image/96.png)
 
 // Input: n = 3
 // Output: 5
