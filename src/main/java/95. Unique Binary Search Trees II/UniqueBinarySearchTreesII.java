@@ -9,8 +9,6 @@
 // Constraints:
 // 1 <= n <= 8
 
-package Tree;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,7 +18,7 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 
 import Helper.TreeNode;
 
-class UniqueBinarySearchTreesII {
+public class UniqueBinarySearchTreesII {
     public List<TreeNode> generateTrees(int n) {
         return build(1, n); 
     }

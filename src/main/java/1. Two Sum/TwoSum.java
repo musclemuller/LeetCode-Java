@@ -1,6 +1,4 @@
-package Array;
-// Two Sum (https://leetcode.com/problems/two-sum/description/?envType=problem-list-v2&envId=array)
-// Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+
 
 // You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
@@ -34,7 +32,7 @@ package Array;
 // Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
 import java.util.*;;
 
-class TwoSum {
+public class TwoSum {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {

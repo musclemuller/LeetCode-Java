@@ -22,7 +22,7 @@
 // 0 <= ai, bi < numCourses
 // All the pairs prerequisites[i] are unique.
 
-package Graph;
+
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -36,7 +36,7 @@ import java.util.Queue;
 // Space complexity: O(m+n)
 // The adj arrays takes O(m) space. The indegree array takes O(n) space.
 // The queue can have no more than n elements in the worst-case scenario. It would take up O(n) space in that case.
-class CourseSchedule {
+public class CourseSchedule {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         int[] indegrees = new int[numCourses];
         List<Integer>[] graph = buildGraph(numCourses, prerequisites, indegrees);

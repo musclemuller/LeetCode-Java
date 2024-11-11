@@ -24,7 +24,7 @@
 // ai != bi
 // All the pairs [ai, bi] are distinct.
 
-package Graph;
+
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -46,7 +46,7 @@ import java.util.Queue;
 // That gives us O(V). Additionally, we also use the adjacency list to represent our graph initially. 
 // The space occupied is defined by the number of edges because for each node as the key, we have all its adjacent nodes in the form of a list as the value. 
 // Hence, O(E). So, the overall space complexity is O(V+E).
-class CourseScheduleII {
+public class CourseScheduleII {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
         List<Integer>[] graph = buildGraph(numCourses, prerequisites);
         int[] indegrees = new int[numCourses];

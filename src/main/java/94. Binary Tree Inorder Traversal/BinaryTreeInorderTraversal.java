@@ -22,12 +22,10 @@
 
 // Follow up: Recursive solution is trivial, could you do it iteratively?
 
-package Tree;
-
 import Helper.TreeNode;
 import java.util.*;
 
-class BinaryTreeInorderTraversal {
+public class BinaryTreeInorderTraversal {
     public List<Integer> inorderTraversal1(TreeNode root) {
         List<Integer> res = new ArrayList<>();
         traverse(res, root);

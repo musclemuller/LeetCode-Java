@@ -65,9 +65,7 @@
 // 0 <= s.length <= 200
 // s consists of English letters (lower-case and upper-case), digits (0-9), ' ', '+', '-', and '.'.
 
-package String;
-
-class StringToIntegerAtoi {
+public class StringToIntegerAtoi {
     public int myAtoi(String s) {
         int len = s.length();
         char[] cs = s.toCharArray();

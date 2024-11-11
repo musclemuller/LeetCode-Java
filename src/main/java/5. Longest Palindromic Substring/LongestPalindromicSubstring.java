@@ -12,7 +12,7 @@
 // 1 <= s.length <= 1000
 // s consist of only digits and English letters.
 
-package String;
+
 
 // Check All Substrings
 // Complexity Analysis
@@ -36,7 +36,7 @@ package String;
 // We don't count the answer as part of the space complexity. Thus, all we use are a few integer variables.
 
 
-class LongestPalindromicSubstring {
+public class LongestPalindromicSubstring {
     public String longestPalindrome(String s) {
         String res = "";
         for (int i = 0; i < s.length(); i++) {

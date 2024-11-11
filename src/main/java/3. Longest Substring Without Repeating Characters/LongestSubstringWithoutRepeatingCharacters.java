@@ -19,8 +19,6 @@
 // 0 <= s.length <= 5 * 104
 // s consists of English letters, digits, symbols and spaces.
 
-package String;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -31,7 +29,7 @@ import java.util.Map;
 // Space complexity : O(min(m,n)). Same as the previous approach. We need O(k) space for the sliding window, where k is the size of the Set. 
 // The size of the Set is upper bounded by the size of the string n and the size of the charset/alphabet m.
 
-class LongestSubstringWithoutRepeatingCharacters {
+public class LongestSubstringWithoutRepeatingCharacters {
     public int lengthOfLongestSubstring(String s) {
         Map<Character, Integer> charToFreq = new HashMap<>();
         int l = 0, r = 0;

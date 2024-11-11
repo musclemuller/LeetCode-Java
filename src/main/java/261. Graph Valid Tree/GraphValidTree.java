@@ -17,7 +17,7 @@
 // ai != bi
 // There are no self-loops or repeated edges.
 
-package Graph;
+
 
 import Helper.UnionFound;
 
@@ -50,7 +50,7 @@ import Helper.UnionFound;
 // Space Complexity : O(N).
 // The UnionFind data structure requires O(N) space to store the arrays it uses.
 
-class GraphValidTree {
+public class GraphValidTree {
     public boolean validTree(int n, int[][] edges) {
         UnionFound uf = new UnionFound(n);
         for (int[] edge : edges) {

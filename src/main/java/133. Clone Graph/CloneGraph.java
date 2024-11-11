@@ -40,7 +40,7 @@
 // There are no repeated edges and no self-loops in the graph.
 // The Graph is connected and all nodes can be visited starting from the given node.
 
-package Graph;
+
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -49,7 +49,7 @@ import java.util.Map;
 
 import Helper.Node;
 
-class CloneGraph {
+public class CloneGraph {
     Map<Node, Node> originToClone;
 
     public Node cloneGraph(Node node) {
