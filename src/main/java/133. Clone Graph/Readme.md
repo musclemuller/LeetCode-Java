@@ -25,7 +25,7 @@ class Node {
 ---
 
 ### Example 1
-![Example 1 Graph](../image/133.png)
+![Example 1 Graph](../Image/133.png)
 
 **Input**: `adjList = [[2,4],[1,3],[2,4],[1,3]]`  
 **Output**: `[[2,4],[1,3],[2,4],[1,3]]`  
