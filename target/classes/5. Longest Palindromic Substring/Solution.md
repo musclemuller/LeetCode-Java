@@ -16,9 +16,9 @@ Given a string `s`, return the longest palindromic substring in `s`.
 - `s` consists of only digits and English letters.
 
 ### Solution:
-- **Approach:** Check All Substrings
+### Approach: Check All Substrings
 
-### Complexity Analysis:
+#### Complexity Analysis:
 - **Time Complexity:** \( O(n^3) \)
   - The two nested `for` loops iterate \( O(n^2) \) times.
   - We check one substring of length `n`, two substrings of length `n - 1`, three substrings of length `n - 2`, and so on.
