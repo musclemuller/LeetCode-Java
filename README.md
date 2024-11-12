@@ -3,7 +3,7 @@
 
 Feel free to reference and ⭐️ STAR this repository to support it!
 
-![LeetCode Logo](path/to/logo.png)  
+![LeetCode Logo](./src/main/java/Image/logo.png)  
 
 ### Directory
 
