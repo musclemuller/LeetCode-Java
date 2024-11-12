@@ -1,5 +1,8 @@
 package Helper;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ListNode {
     public int val;
     public ListNode next;
@@ -30,4 +33,13 @@ public class ListNode {
         return l1 == null && l2 == null;
     }
 
+    // Helper method to print a linked list
+    public static void printLinkedList(ListNode head) {
+        List<Integer> values = new ArrayList<>();
+        while (head != null) {
+            values.add(head.val);
+            head = head.next;
+        }
+        System.out.println(values);
+    }
 }
