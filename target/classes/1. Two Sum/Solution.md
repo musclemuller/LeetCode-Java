@@ -1,4 +1,4 @@
-[Problem Link](https://leetcode.com/problems/two-sum/description/)   
+# [Two Sum](https://leetcode.com/problems/two-sum/description/)   
 
 You may assume that each input has exactly one solution, and you may not use the same element twice.
 
