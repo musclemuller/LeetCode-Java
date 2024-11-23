@@ -55,7 +55,7 @@ public class SpiralMatrix {
             {7, 8, 9}
         };
         List<Integer> result1 = s.spiralOrder(matrix1);
-        System.out.println("Input: matrix = " + matrixToString(matrix1));
+        System.out.println("Input: matrix = " + Printer.matrixToString(matrix1));
         System.out.println("Output: " + result1);
         System.out.println("Expected: [1, 2, 3, 6, 9, 8, 7, 4, 5]");
         System.out.println("Test case 1 " + 
