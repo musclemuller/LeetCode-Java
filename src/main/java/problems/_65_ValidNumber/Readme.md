@@ -1,4 +1,4 @@
-# 65. Valid Number
+# [Valid Number](https://leetcode.com/problems/valid-number/)
 
 Given a string `s`, return whether `s` is a **valid number**.
 
