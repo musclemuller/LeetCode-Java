@@ -32,12 +32,12 @@ public class RotateList {
         ListNode head1 = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5)))));
         System.out.println("Input: [1,2,3,4,5], k=2");
         ListNode result1 = rotateList.rotateRight(head1, 2);
-        System.out.println("Output: " + result1);
+        ListNode.printLinkedList(result1);
 
         // Test Case 2: [0,1,2] with k=4 
         ListNode head2 = new ListNode(0, new ListNode(1, new ListNode(2)));
         System.out.println("\nInput: [0,1,2], k=4");
         ListNode result2 = rotateList.rotateRight(head2, 4);
-        System.out.println("Output: " + result2);
+        ListNode.printLinkedList(result2);
     }
 }
