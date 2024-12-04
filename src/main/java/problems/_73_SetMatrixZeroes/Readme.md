@@ -9,11 +9,12 @@ You must do it **in place**.
 ## Examples
 
 ### Example 1
-![ex1](../../Image/73.png)
+![ex1](../../Image/73-1.png)
 > **Input:** `matrix = [[1,1,1],[1,0,1],[1,1,1]]`  
 > **Output:** `[[1,0,1],[0,0,0],[1,0,1]]`
 
 ### Example 2
+![ex2](../../Image/73-2.png)
 > **Input:** `matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]`  
 > **Output:** `[[0,0,0,0],[0,4,5,0],[0,3,1,0]]`
 
@@ -24,3 +25,11 @@ You must do it **in place**.
 - `n == matrix[0].length`
 - `1 <= m, n <= 200`
 - `-231 <= matrix[i][j] <= 231 - 1` 
+
+
+---
+
+## Follow up
+- A straightforward solution using `O(mn)` space is probably a bad idea.
+- A simple improvement uses `O(m + n)` space, but still not the best solution.
+- Could you devise a constant space solution?

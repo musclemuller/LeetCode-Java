@@ -9,15 +9,17 @@ The word can be constructed from letters of sequentially adjacent cells, where a
 ## Examples
 
 ### Example 1
-![ex1](../../Image/79.png)
+![ex1](../../Image/79-1.png)
 > **Input:** `board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "ABCCED"`  
 > **Output:** `true`
 
 ### Example 2
+![ex2](../../Image/79-2.png)
 > **Input:** `board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "SEE"`  
 > **Output:** `true`
 
 ### Example 3
+![ex3](../../Image/79-3.png)
 > **Input:** `board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "ABCB"`  
 > **Output:** `false`
 
@@ -29,3 +31,13 @@ The word can be constructed from letters of sequentially adjacent cells, where a
 - `1 <= m, n <= 6`
 - `1 <= word.length <= 15`
 - `board` and `word` consists of only lowercase and uppercase English letters 
+
+---
+
+## Follow up
+Could you use search pruning to make your solution faster with a larger `board`?
+
+
+
+
+

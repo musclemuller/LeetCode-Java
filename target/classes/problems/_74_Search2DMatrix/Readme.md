@@ -1,27 +1,32 @@
 # [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
 
-Write an efficient algorithm that searches for a value `target` in an `m x n` integer matrix `matrix`. This matrix has the following properties:
+You are given an `m x n` integer matrix `matrix` with the following two properties:
 
-- Integers in each row are sorted from left to right.
+- Each row is sorted in non-decreasing order.
 - The first integer of each row is greater than the last integer of the previous row.
+
+Given an integer `target`, return `true` *if* `target` *is in* `matrix` *or* `false` *otherwise*.
+
+You must write a solution in `O(log(m * n))` time complexity.
 
 ---
 
 ## Examples
 
-### Example 1
-![ex1](../../Image/74.png)
+### Example 1:
+![ex1](../../Image/74-1.png)
 > **Input:** `matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,60]], target = 3`  
 > **Output:** `true`
 
-### Example 2
+### Example 2:
+![ex2](../../Image/74-2.png)
 > **Input:** `matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,60]], target = 13`  
 > **Output:** `false`
 
 ---
 
-## Constraints
+## Constraints:
 - `m == matrix.length`
 - `n == matrix[i].length`
 - `1 <= m, n <= 100`
-- `-104 <= matrix[i][j], target <= 104` 
+- `-10^4 <= matrix[i][j], target <= 10^4`
